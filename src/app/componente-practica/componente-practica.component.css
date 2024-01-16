@@ -1,0 +1,47 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(235, 235, 235);
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px; /* Ajusta el espacio entre los iconos */
+}
+
+.social-icon {
+    display: inline-block;
+    width: 24px; /* Tamaño de los iconos */
+    height: 24px; /* Tamaño de los iconos */
+    background-size: cover;
+}
+
+.facebook {
+    background-image: url('./icons/facebook.svg'); /* Cambia la URL por la ruta de tu icono */
+}
+
+.twitter {
+    background-image: url('./icons/twitter.svg'); /* Cambia la URL por la ruta de tu icono */
+}
+
+.instagram {
+    background-image: url('./icons/instagram.svg'); /* Cambia la URL por la ruta de tu icono */
+}
+
+#menu-toggle {
+    font-size: 24px; /* Tamaño del menú hamburguesa */
+    cursor: pointer;
+}
+

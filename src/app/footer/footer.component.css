@@ -1,0 +1,37 @@
+.linkedin {
+    background-image: url('./icons/linkedin.svg'); /* Cambia la URL por la ruta de tu icono */
+}
+
+.github {
+    background-image: url('./icons/square-github.svg'); /* Cambia la URL por la ruta de tu icono */
+}
+
+.gitlab {
+    background-image: url('./icons/square-gitlab.svg'); /* Cambia la URL por la ruta de tu icono */
+}
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    width: 70%;
+    margin: 20px auto;
+    background-color:rgb(235, 235, 235);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon {
+    display: inline-block;
+    width: 24px; 
+    height: 24px; 
+    background-size: cover;
+    color: #333;
+    margin: 10px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
